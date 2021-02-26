@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.home-wrapper{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  background-size: 100%;
+  background-image: url('https://images.pexels.com/photos/3022417/pexels-photo-3022417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.inputCreate {
+  font-family: -webkit-pictograph;
+  border: 4px solid beige;
+  border-radius: 15px;
+  height: 30px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.btnInputCreate {
+  height: 40px;
+  width: 130px;
+  border-radius: 15px;
+  border: 4px solid beige;
+  background: transparent;
+  font-family: -webkit-pictograph;
+  cursor: pointer;
+}
+
+.create-form {
+  position: fixed; /* or absolute */
+  top: 40vh;
+  left: 30vw;
+}
+
+.city {
+  width: 35vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title{
+  padding-left: 20px;
+  display: content;
+}
