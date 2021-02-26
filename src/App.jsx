@@ -2,6 +2,7 @@ import React from "react";
 import Web3 from "web3";
 import ABI from "./contracts-api/abi.json";
 import "./App.css";
+import "./global.js"
 
 export default class App extends React.Component {
   constructor(props) {
